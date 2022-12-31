@@ -13,8 +13,10 @@ public class Controller {
 	public  List <Students> retrieveAllStudents(){
 		
 		return Arrays.asList(
-				new Students (1, "Bob Nilosn", "bob@gmail.com"),
-				new Students (2, "Nuna Alem", "nuna@gmail.com")
+				new Students (1, "Bob Nilson", "bob@gmail.com"),
+				new Students (2, "Nuna Alem", "nuna@gmail.com"),
+				new Students (3, "Tesfaldet Weldemicheal", "wlte@gmail.com"),
+				new Students (4, "Abel Alem", "abel@gmail.com")
 				);
 		
 	}
